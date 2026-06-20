@@ -3,7 +3,7 @@ requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "sql-executor"
+name = "pysql-executor"
 version = "0.1.0"
 description = "Backend-agnostic stored-procedure / SQL executor with a pluggable base class"
 readme = "README.md"
