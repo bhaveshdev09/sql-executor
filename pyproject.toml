@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sql-executor"
+version = "0.1.0"
+description = "Backend-agnostic stored-procedure / SQL executor with a pluggable base class"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.optional-dependencies]
+sqlserver = ["pyodbc>=4.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
